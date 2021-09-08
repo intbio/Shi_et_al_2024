@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/1kx5_tetrasome_124_tails_for_web.pdb"
   var xtc="trj/1kx5_tetrasome_124_tails_for_web.xtc"
-  var csvfile="dat/1kx5_tetrasome_124_tails_for_web.csv"
+  var csvfile="dat/1aoi_ntm_dist_unwrap.csv"
   var trjstep = 0.1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
