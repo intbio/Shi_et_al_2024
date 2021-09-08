@@ -48,9 +48,9 @@
 <script src="https://unpkg.com/ngl@2.0.0-dev.35/dist/ngl.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script>
-  var pdb="trj/1kx5_sym_fixed_for_web.pdb"
-  var xtc="trj/1kx5_sym_fixed_for_web.xtc"
-  var csvfile="dat/1kx5_sym_fixed_dist_unwrap.csv"
+  var pdb="trj/1kx5_tetrasome_124_tails_for_web.pdb"
+  var xtc="trj/1kx5_tetrasome_124_tails_for_web.xtc"
+  var csvfile="dat/1kx5_tetrasome_124_tails_for_web.csv"
   var trjstep = 0.1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
