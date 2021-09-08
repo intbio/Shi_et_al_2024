@@ -1,5 +1,5 @@
-### NCP<sup><i>tt</i></sup><sub>146</sub> - 146 bp α-satellite DNA sequence, truncated histone tails (PDB ID 1AOI)
-[Back](https://intbio.github.io/Armeev_et_al_2021)
+### T<sup><i>tt</i></sup><sub>124</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, truncated histone tails  (PDB ID 1KX5)
+[Back](https://intbio.github.io/Tetrasome_MD_2021)
 
 <html lang="en">
   <head>
