@@ -152,7 +152,7 @@
         'useInteriorColor': false
       });
       nucl.addRepresentation('spacefill', {
-        "sele": ":I and -62 and .C1'",
+        "sele": ":I and -61 and .C1'",
         "color": "steelblue",
         "radius":5,
         'diffuseInterior': false,
@@ -361,7 +361,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 10;
+              return d / 1;
             }))
 
         // Add Y axis
