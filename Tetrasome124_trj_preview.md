@@ -192,7 +192,7 @@
         window.traj.signals.frameChanged.add(function() {
           var fnum = window.traj.currentFrame;
           $('#myRange')[0].value = fnum;
-          $("#frame_counter")[0].innerHTML = (fnum * trjstep/10).toFixed(2);
+          $("#frame_counter")[0].innerHTML = (fnum * trjstep).toFixed(2);
           tooltipLine.attr('stroke', 'black')
             .attr('x1', x(fnum))
             .attr('x2', x(fnum))
@@ -217,7 +217,7 @@
     window.slider = slider;
 
     slider.oninput = function() {
-      //output.innerHTML = (this.value*trjstep).toFixed(2);
+      //output.innerHTML = (this.value*trjstep/10).toFixed(2);
       window.traj.player.pause();
       window.traj.setFrame(this.value);
       //tooltipLine.attr('stroke', 'black')
