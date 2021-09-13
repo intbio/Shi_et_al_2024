@@ -192,7 +192,7 @@
         window.traj.signals.frameChanged.add(function() {
           var fnum = window.traj.currentFrame;
           $('#myRange')[0].value = fnum;
-          $("#frame_counter")[0].innerHTML = (fnum * trjstep).toFixed(2);
+          $("#frame_counter")[0].innerHTML = (fnum * trjstep/10).toFixed(2);
           tooltipLine.attr('stroke', 'black')
             .attr('x1', x(fnum))
             .attr('x2', x(fnum))
