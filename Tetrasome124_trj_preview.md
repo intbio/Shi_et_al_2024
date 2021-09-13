@@ -51,7 +51,7 @@
   var pdb="trj/1kx5_tetrasome_124_tails_for_web.pdb"
   var xtc="trj/1kx5_tetrasome_124_tails_for_web.xtc"
   var csvfile="dat/1kx5_tetrasome_124_tails_dist_unwrap.csv"
-  var trjstep = 0.1;
+  var trjstep = 0.01;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
       backgroundColor: "#FFFFFF"
