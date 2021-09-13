@@ -471,7 +471,7 @@
             .attr('x2', x(frame))
             .attr('y1', 0)
             .attr('y2', height);
-          tooltip.html('Proximal unwrap (smoothed): ' + Math.floor(data[frame*100].prox_filtered) + 'bp<br>Distal unwrap (smoothed): ' + Math.floor(data[frame*100].dist_filtered) + 'bp')
+          tooltip.html('Proximal unwrap (smoothed): ' + Math.floor(data[frame*10].prox_filtered) + 'bp<br>Distal unwrap (smoothed): ' + Math.floor(data[frame*10].dist_filtered) + 'bp')
             .style('display', 'block')
             .style('left', d3.event.pageX + 20)
             .style('top', d3.event.pageY - 20)
