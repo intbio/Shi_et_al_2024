@@ -217,7 +217,7 @@
     window.slider = slider;
 
     slider.oninput = function() {
-      //output.innerHTML = (this.value*trjstep/10).toFixed(2);
+      //output.innerHTML = (this.value*trjstep).toFixed(2);
       window.traj.player.pause();
       window.traj.setFrame(this.value);
       //tooltipLine.attr('stroke', 'black')
