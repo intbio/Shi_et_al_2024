@@ -347,7 +347,7 @@
       // Now I can use this dataset:
       function(data) {
         data.forEach(function(d) {
-          d.Frame = d.Frame / 100;
+          d.Frame = d.Frame / 10;
         });
         // Add X axis --> it is a date format
 
