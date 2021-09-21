@@ -41,11 +41,17 @@
     });
   </script>
   <div id="viewport0" style="width:500px; height:500px; border: thin solid black"></div>
-      
+</body>
+</html>
+
 ### Tetrasome trajectory projection on the 1st mode 
 
 ![3rd](dat/1_vec.png)
-    
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
   <h3> Mode 2</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -77,10 +83,20 @@
   </script>
   <div id="viewport1" style="width:500px; height:500px; border: thin solid black"></div>
  
+ 
+</body>
+</html>
+
 ### Tetrasome trajectory projection on the 2nd mode 
 
 ![3rd](dat/2_vec.png)
   
+  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
   <h3> Mode 3</h3>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
