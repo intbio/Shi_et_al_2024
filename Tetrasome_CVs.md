@@ -9,8 +9,6 @@
 <body>
   <p style="color:#020AED;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H3</p> 
   <p style="color:#009933;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H4</p>
-#  <p style="color:#E0F705;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 #black, 0 -1px black;display: inline">H2A</p>
-#  <p style="color:#CE0000;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 #black, 0 -1px black;display: inline">H2B</p>
   <p style="color:#808080;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">DNA</p>
  <h3> Mode 1</h3>
   <script src="https://unpkg.com/ngl@2.0.0-dev.35/dist/ngl.js"></script>
@@ -43,9 +41,7 @@
     });
   </script>
   <div id="viewport0" style="width:500px; height:500px; border: thin solid black"></div>
-  
-  <img src=”dat/1_vec.png”>
-    
+      
     
   <h3> Mode 2</h3>
   <script>
