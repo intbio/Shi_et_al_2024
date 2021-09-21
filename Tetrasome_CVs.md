@@ -44,7 +44,7 @@
   </script>
   <div id="viewport0" style="width:500px; height:500px; border: thin solid black"></div>
   
-  <img src=”dat/1_vec.png”>
+#  <img src=”dat/1_vec.png”>
     
     
   <h3> Mode 2</h3>
