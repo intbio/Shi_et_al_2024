@@ -42,6 +42,9 @@
   </script>
   <div id="viewport0" style="width:500px; height:500px; border: thin solid black"></div>
       
+### Tetrasome trajectory projection on the 1st mode 
+
+![3rd](dat/1_vec.png)
     
   <h3> Mode 2</h3>
   <script>
@@ -73,6 +76,10 @@
     });
   </script>
   <div id="viewport1" style="width:500px; height:500px; border: thin solid black"></div>
+ 
+### Tetrasome trajectory projection on the 2nd mode 
+
+![3rd](dat/2_vec.png)
   
   <h3> Mode 3</h3>
   <script>
@@ -106,3 +113,7 @@
   <div id="viewport2" style="width:500px; height:500px; border: thin solid black"></div>
 </body>
 </html>
+
+### Tetrasome trajectory projection on the 3rd mode 
+
+![3rd](dat/3_vec.png)
