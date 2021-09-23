@@ -1,5 +1,9 @@
 
-### Characteristic modes of tetrsome molecular dynamics (were extracted using Principal component analysis of covarience matrix for CA-atoms of histone tetramer globular part) 
+### Characteristic modes of tetrsome molecular dynamics 
+
+Modes were extracted from tetrasome MD trajectory using Principal component analysis of covarience matrix for CA-atoms of histone tetramer globular part (without flexible tails). PCA was performed via Gromacs 2020.1 program. 
+This page presents first 3 characteristic modes. Each mode was described with interpolation between the two extreme projections along a trajectory on the average structure and projection profile of a trajectory on this mode. 
+
 [Back](http://intbio.github.io/Tetrasome_MD_2021/)
 
 <html lang="en">
@@ -10,6 +14,7 @@
   <p style="color:#020AED;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H3</p> 
   <p style="color:#009933;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H4</p>
  <h3> Mode 1</h3>
+  Pac-man-like tetramer movement; describes 29% of trajectory variance. 
   <script src="https://unpkg.com/ngl@2.0.0-dev.35/dist/ngl.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -52,6 +57,7 @@
 </head>
 <body>
   <h3> Mode 2</h3>
+  Torsion tetramer movement; describes 26% of trajectory variance. 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport1",{ backgroundColor:"#FFFFFF" });
@@ -97,6 +103,7 @@
 </head>
 <body>
   <h3> Mode 3</h3>
+  This mode escribes 10% of trajectory variance. 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var stage = new NGL.Stage("viewport2",{ backgroundColor:"#FFFFFF" });
