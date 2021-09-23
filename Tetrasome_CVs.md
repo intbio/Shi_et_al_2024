@@ -14,7 +14,7 @@ This page presents first 3 characteristic modes. Each mode was described with in
   <p style="color:#020AED;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H3</p> 
   <p style="color:#009933;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H4</p>
  <h3> Mode 1</h3>
-  Pac-man-like tetramer movement; describes 29% of trajectory variance. 
+  Pac-man-like tetramer movement (opening); describes 29% of trajectory variance. 
   <script src="https://unpkg.com/ngl@2.0.0-dev.35/dist/ngl.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
