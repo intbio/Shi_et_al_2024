@@ -8,8 +8,7 @@
 - [NCP<sub>147</sub> - 147 bp pseudosymmetric α-satellite DNA, full length histone tails in symmetric starting positions (PDB ID 1KX5)](../Armeev_et_al_2021/NCP147_trj_preview) 
 
 ### Collective motions within the histone tetramer globular domain 
-- [1, 2 and 3 eigenvectors](Tetrasome_CVs) 
-
+- [Tetramer characteristic modes - were extracted from Tetrasome<sub>124</sub> MD trajectory using principal component analysis (1, 2 and 3 eigenvectors)](Tetrasome_CVs) 
 ### Trajectory files
 - Tetrasome<sub>124</sub> - 124 bp pseudosymmetricα-satellite DNA, full length histone tails in symmetric starting positions (PDB ID 1KX5): [pdb](trj/1kx5_tetrasome_124_tails_for_web.pdb), [xtc](trj/1kx5_tetrasome_124_tails_for_web.xtc)
 
