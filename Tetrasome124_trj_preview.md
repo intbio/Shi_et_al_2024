@@ -446,7 +446,7 @@
           .attr("y", -45)
           .attr("dy", ".75em")
           .attr("transform", "rotate(-90)")
-          .text("Unwrapped base pairs");
+          .text("Wrapped base pairs");
           
         tipBox = svg.append('rect')
           .attr('width', width)
@@ -471,7 +471,7 @@
             .attr('x2', x(frame))
             .attr('y1', 0)
             .attr('y2', height);
-          tooltip.html('Proximal unwrap (smoothed): ' + Math.floor(data[frame*10].prox_filtered) + 'bp<br>Distal unwrap (smoothed): ' + Math.floor(data[frame*10].dist_filtered) + 'bp')
+          tooltip.html('Proximal wrap (smoothed): ' + Math.floor(data[frame*10].prox_filtered) + 'bp<br>Distal wrap (smoothed): ' + Math.floor(data[frame*10].dist_filtered) + 'bp')
             .style('display', 'block')
             .style('left', d3.event.pageX + 20)
             .style('top', d3.event.pageY - 20)
@@ -534,7 +534,7 @@
       <p>Time: <span id="frame_counter"></span> μs</p>
 
     </div>
-    <h4>Number of detached DNA base pairs from each nucleosome end</h4>
+    <h4>Number of wrapped DNA base pairs from each nucleosome end</h4>
     <div id='tooltip' style='position:absolute;background-color:lightgray;padding:5px'></div>
     <div id="my_dataviz"></div>
 
