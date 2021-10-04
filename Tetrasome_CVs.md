@@ -51,6 +51,7 @@ This page presents first 3 characteristic modes. Each mode was described with in
 ### Tetrasome trajectory projection on the 1st mode 
 
 ![3rd](dat/1_vec.png)
+![3rd](dat/1_1_vec.png)
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -95,6 +96,7 @@ This page presents first 3 characteristic modes. Each mode was described with in
 ### Tetrasome trajectory projection on the 2nd mode 
 
 ![3rd](dat/2_vec.png)
+![3rd](dat/2_1_vec.png)
   
   
 <html lang="en">
@@ -139,3 +141,4 @@ This page presents first 3 characteristic modes. Each mode was described with in
 ### Tetrasome trajectory projection on the 3rd mode 
 
 ![3rd](dat/3_vec.png)
+![3rd](dat/3_1_vec.png)
