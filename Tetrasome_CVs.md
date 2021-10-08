@@ -2,7 +2,7 @@
 ### Characteristic modes of tetrsome molecular dynamics 
 
 Modes were extracted from tetrasome MD trajectory using Principal component analysis of covarience matrix for CA-atoms of histone tetramer globular part (without flexible tails). PCA was performed via Gromacs 2020.1 program. 
-This page presents first 3 characteristic modes. Each mode was described with interpolation between the two extreme projections along a trajectory on the average structure and projection profile of a trajectory on this mode. 
+This page presents first 3 tetrasome characteristic modes. Each mode was described with interpolation between the two extreme projections along a trajectory on the average structure and projection profile of a tetrasome (blue) and nucleosome (red) trajectories on this mode. 
 
 [Back](http://intbio.github.io/Tetrasome_MD_2021/)
 
@@ -50,8 +50,8 @@ This page presents first 3 characteristic modes. Each mode was described with in
 
 ### Tetrasome trajectory projection on the 1st mode 
 
-![3rd](dat/1_vec.png)
 ![3rd](dat/1_1_vec.png)
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -95,7 +95,6 @@ This page presents first 3 characteristic modes. Each mode was described with in
 
 ### Tetrasome trajectory projection on the 2nd mode 
 
-![3rd](dat/2_vec.png)
 ![3rd](dat/2_1_vec.png)
   
   
@@ -140,5 +139,4 @@ This page presents first 3 characteristic modes. Each mode was described with in
 
 ### Tetrasome trajectory projection on the 3rd mode 
 
-![3rd](dat/3_vec.png)
 ![3rd](dat/3_1_vec.png)
