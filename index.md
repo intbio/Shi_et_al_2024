@@ -5,8 +5,8 @@
 
 Systems with truncated flexible tails (See truncation sites on the Supl.figure 1) 
 
-- [Tetrasome<sub>78</sub> - 78 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome78_trj_preview) 
-- [Tetrasome<sub>98</sub> - 98 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome98_trj_preview) 
+- [Tetrasome<sub>78</sub> - 78 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome80_trj_preview) 
+- [Tetrasome<sub>98</sub> - 98 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome100_trj_preview) 
 - [Tetrasome<sub>120</sub> - 120 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome120_trj_preview) 
 
 System with full-length tails
