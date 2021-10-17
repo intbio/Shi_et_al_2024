@@ -107,14 +107,14 @@
       //H3 39-49 - назвать H3 39-49 DNA latch
 	
       window.cy3_selection = nucl.addRepresentation('spacefill', {
-        "sele": ":I and -60 and .C1'",
+        "sele": ":I and -39 and .C1'",
         color: "red",
         radius: 5
       });
       window.cy3_selection.setVisibility(false);
 	
       window.cy5_selection = nucl.addRepresentation('spacefill', {
-        "sele": ":J and -60 and .C1'",
+        "sele": ":J and -39 and .C1'",
         color: "green",
         radius: 5
       });
@@ -166,14 +166,14 @@
         'useInteriorColor': false
       });
       nucl.addRepresentation('spacefill', {
-        "sele": ":I and -61 and .C1'",
+        "sele": ":I and -50 and .C1'",
         "color": "steelblue",
         "radius":5,
         'diffuseInterior': false,
         'useInteriorColor': false
       });
       nucl.addRepresentation('spacefill', {
-        "sele": ":J and -61 and .C1'",
+        "sele": ":J and -50 and .C1'",
         "color": "orange",
         "radius":5,
         'diffuseInterior': false,
