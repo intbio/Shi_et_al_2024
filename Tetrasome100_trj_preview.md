@@ -1,4 +1,4 @@
-### T<sub>124</sub> - tetrasome with 98 bp pseudosymmetric α-satellite DNA, truncated histone tails  (PDB ID 1KX5)
+### T<sub>98</sub> - tetrasome with 98 bp pseudosymmetric α-satellite DNA, truncated histone tails  (PDB ID 1KX5)
 [Back](https://intbio.github.io/Tetrasome_MD_2021)
 
 <html lang="en">
