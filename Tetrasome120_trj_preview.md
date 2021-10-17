@@ -1,4 +1,4 @@
-### T<sub>124</sub> - tetrasome with 120 bp pseudosymmetric α-satellite DNA, truncated histone tails  (PDB ID 1KX5)
+### T<sub>120</sub> - tetrasome with 120 bp pseudosymmetric α-satellite DNA, truncated histone tails  (PDB ID 1KX5)
 [Back](https://intbio.github.io/Tetrasome_MD_2021)
 
 <html lang="en">
@@ -103,8 +103,6 @@
         radius: 3.5
       });
       window.dna_latch_selection.setVisibility(false);
-      
-      //H3 39-49 - назвать H3 39-49 DNA latch
 	
       window.cy3_selection = nucl.addRepresentation('spacefill', {
         "sele": ":I and -39 and .C1'",
