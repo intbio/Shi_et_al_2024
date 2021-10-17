@@ -103,6 +103,21 @@
         radius: 3.5
       });
       window.dna_latch_selection.setVisibility(false);
+	
+      window.cy3_selection = nucl.addRepresentation('spacefill', {
+        "sele": ":I and -39 and .C1'",
+        color: "red",
+        radius: 5
+      });
+      window.cy3_selection.setVisibility(false);
+	
+      window.cy5_selection = nucl.addRepresentation('spacefill', {
+        "sele": ":J and -39 and .C1'",
+        color: "green",
+        radius: 5
+      });
+      window.cy5_selection.setVisibility(false);
+
       
       //H3 39-49 - назвать H3 39-49 DNA latch
 
@@ -165,6 +180,7 @@
         'diffuseInterior': false,
         'useInteriorColor': false
       });
+
       window.nucl_cartoon = nucl.addRepresentation('cartoon', {
         "sele": "nucleic",
         "color": 'grey',
@@ -303,6 +319,11 @@
     function toggle_latch_visibility() {
       var state = $(this).is(":checked");
       window.dna_latch_selection.setVisibility(state);
+    }
+    function toggle_cy3_visibility() {
+      var state = $(this).is(":checked");
+      window.cy3_selection.setVisibility(state);
+      window.cy5_selection.setVisibility(state);
     }
     
     function toggle_axes_visibility() {
@@ -523,6 +544,11 @@
     <input class="form-check-input " type="checkbox" name="highlight_DA_check" value="" id="highlight_DA_check">
     <label class="form-check-label " for="highlight_DA_check">
       Highlight ADE
+    </label>
+	  
+    <input class="form-check-input " type="checkbox" name="cy3_selection_check" value="" id="cy3_selection_check">
+    <label class="form-check-label " for="cy3_selection_check">
+      Show Cy3/Cy5 attachment 
     </label>
 
 
