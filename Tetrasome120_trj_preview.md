@@ -317,7 +317,11 @@
       var state = $(this).is(":checked");
       window.dna_latch_selection.setVisibility(state);
     }
-    
+    function toggle_cy3_visibility() {
+      var state = $(this).is(":checked");
+      window.cy3_selection.setVisibility(state);
+      window.cy5_selection.setVisibility(state);
+    }
     function toggle_axes_visibility() {
       var state = $(this).is(":checked");
       window.axes.setVisibility(state);
