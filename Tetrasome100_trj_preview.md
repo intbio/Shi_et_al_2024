@@ -103,8 +103,6 @@
         radius: 3.5
       });
       window.dna_latch_selection.setVisibility(false);
-      
-      //H3 39-49 - назвать H3 39-49 DNA latch
 	
       window.cy3_selection = nucl.addRepresentation('spacefill', {
         "sele": ":I and -39 and .C1'",
