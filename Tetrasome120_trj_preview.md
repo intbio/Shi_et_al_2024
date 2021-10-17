@@ -105,6 +105,20 @@
       window.dna_latch_selection.setVisibility(false);
       
       //H3 39-49 - назвать H3 39-49 DNA latch
+	
+      window.cy3_selection = nucl.addRepresentation('spacefill', {
+        "sele": ":I and -60 and .C1'",
+        color: "red",
+        radius: 5
+      });
+      window.cy3_selection.setVisibility(false);
+	
+      window.cy5_selection = nucl.addRepresentation('spacefill', {
+        "sele": ":J and -60 and .C1'",
+        color: "green",
+        radius: 5
+      });
+      window.cy5_selection.setVisibility(false);
 
 
       nucl.addRepresentation('cartoon', {
@@ -231,6 +245,7 @@
     $('input[type=checkbox][name=ref_str_check]').on('change', toggle_reference_structure);
     $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_lys_arg_visibility);
     $('input[type=checkbox][name=latch_check]').on('change', toggle_latch_visibility);
+    $('input[type=checkbox][name=cy3_selection_check]').on('change', toggle_cy3_visibility);
     $('input[type=checkbox][name=highlight_DA_check]').on('change', toggle_DA_highlight);
     $('input[type=checkbox][name=ortho_check]').on('change', toggle_orthographic);
     $('input[type=checkbox][name=axes_check]').on('change', toggle_axes_visibility);
@@ -523,6 +538,11 @@
     <input class="form-check-input " type="checkbox" name="highlight_DA_check" value="" id="highlight_DA_check">
     <label class="form-check-label " for="highlight_DA_check">
       Highlight ADE
+    </label>
+	  
+    <input class="form-check-input " type="checkbox" name="cy3_selection_check" value="" id="cy3_selection_check">
+    <label class="form-check-label " for="cy3_selection_check">
+      Show Cy3/Cy5 attachment 
     </label>
 
 
