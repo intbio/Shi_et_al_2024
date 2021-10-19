@@ -544,7 +544,7 @@
 	  
     <input class="form-check-input " type="checkbox" name="cy3_selection_check" value="" id="cy3_selection_check">
     <label class="form-check-label " for="cy3_selection_check">
-      Show Cy3/Cy5 attachment 
+      Show Cy3/Cy5 attachment sites
     </label>
 
 
