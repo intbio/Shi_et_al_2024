@@ -1,23 +1,17 @@
 # Supplementary data
-## "??????" by ?????? et al.
+## "Tetrasome ... " by Example et al.
 
 ### Interactive preview of MD trajectories
-
-Systems with truncated flexible tails (See truncation sites on the Supl.figure 1) 
-
-- [Tetrasome<sub>78</sub> - 78 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome80_trj_preview) 
-- [Tetrasome<sub>98</sub> - 98 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome100_trj_preview) 
-- [Tetrasome<sub>120</sub> - 120 bp pseudosymmetric α-satellite DNA, truncated histone tails (PDB ID 1KX5)](Tetrasome120_trj_preview) 
-
-System with full-length tails
-
-- [Tetrasome<sub>124</sub> - 124 bp pseudosymmetric α-satellite DNA, full length histone tails (PDB ID 1KX5)](Tetrasome124_trj_preview) 
-
-### Compare with (from Armeev et al. Nature Communications 2021)
-- [NCP<sub>147</sub> - 147 bp pseudosymmetric α-satellite DNA, full length histone tails in symmetric starting positions (PDB ID 1KX5)](../Armeev_et_al_2021/NCP147_trj_preview) 
+- [TETR<sub>uncoil</sub> - simulation of nucleosomal DNA uncoiling upon H2A-H2B removal from the NCP structure]()
+- [TETR<sub>124</sub>] - 2.5 µs simulation of tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview)
+- [TETR<sup><i>tt</i></sup><sub>78</sub>] - 1 µs simulation of tetrasome positioned on 78 bp DNA sequence with truncated histone tails](Tetrasome80_trj_preview)
+- [TETR<sup><i>tt</i></sup><sub>98</sub>] - 1 µs simulation of tetrasome positioned on 98 bp DNA sequence with truncated histone tails](Tetrasome100_trj_preview)
+- [TETR<sup><i>tt</i></sup><sub>120</sub>] - 1 µs simulation of tetrasome positioned on 120 bp DNA sequence with truncated histone tails](Tetrasome120_trj_preview)
+- [NCP<sub>147</sub> - full nucleosome core particle simulation for comparison from Armeev et al. Nat.Comm. 2021](../Armeev_et_al_2021/NCP147_trj_preview) 
 
 ### Collective motions of the histone tetramer globular domain 
-- [Tetramer characteristic modes were extracted from Tetrasome<sub>124</sub> MD trajectory using principal component analysis (1, 2 and 3 eigenvectors)](Tetrasome_CVs) 
+- [Principal components of tetramer collective motions from TETR<sup><i>tt</i></sup><sub>120</sub> simulations](Tetrasome_CVs) 
+- 
 ### Trajectory files
 - Tetrasome<sub>78</sub> - 78 bp pseudosymmetricα-satellite DNA, truncated histone tails (PDB ID 1KX5): [pdb](trj/h3-h4_2_tm_80DNA_for_web.pdb), [xtc](trj/h3-h4_2_tm_80DNA_for_web.xtc)
 - Tetrasome<sub>98</sub> - 98 bp pseudosymmetricα-satellite DNA, truncated histone tails (PDB ID 1KX5): [pdb](trj/h3-h4_2_tm_100DNA_for_web.pdb), [xtc](trj/h3-h4_2_tm_100DNA_for_web.xtc)
