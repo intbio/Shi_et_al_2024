@@ -4,8 +4,8 @@
 ### Interactive preview of MD trajectories
 - [TETR<sub>uncoil</sub> - simulation of nucleosomal DNA uncoiling upon H2A-H2B removal from the NCP structure]()
 - [TETR<sub>124</sub>  &nbsp;&nbsp;&nbsp;  - 2.5 µs simulation of tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview)
-- [TETR<sup><i>tt</i></sup><sub>78</sub> &nbsp; - 1 µs simulation of tetrasome positioned on 78 bp DNA sequence with truncated histone tails](Tetrasome80_trj_preview)
-- [TETR<sup><i>tt</i></sup><sub>98</sub> &nbsp; - 1 µs simulation of tetrasome positioned on 98 bp DNA sequence with truncated histone tails](Tetrasome100_trj_preview)
+- [TETR<sup><i>tt</i></sup><sub>78</sub> &nbsp;&nbsp; - 1 µs simulation of tetrasome positioned on 78 bp DNA sequence with truncated histone tails](Tetrasome80_trj_preview)
+- [TETR<sup><i>tt</i></sup><sub>98</sub> &nbsp;&nbsp; - 1 µs simulation of tetrasome positioned on 98 bp DNA sequence with truncated histone tails](Tetrasome100_trj_preview)
 - [TETR<sup><i>tt</i></sup><sub>120</sub> &nbsp; - 1 µs simulation of tetrasome positioned on 120 bp DNA sequence with truncated histone tails](Tetrasome120_trj_preview)
 - [NCP<sub>147</sub> - full nucleosome core particle simulation for comparison from Armeev et al. Nat.Comm. 2021](../Armeev_et_al_2021/NCP147_trj_preview) 
 
