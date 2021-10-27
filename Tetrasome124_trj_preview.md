@@ -1,4 +1,4 @@
-### T<sub>124</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, full length histone tails  (PDB ID 1KX5)
+### TETR<sub>124</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, full length histone tails  (PDB ID 1KX5)
 [Back](https://intbio.github.io/Tetrasome_MD_2021)
 
 <html lang="en">
