@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/1KX5_cryst_tetrasome_coiled_for_web.pdb"
   var xtc="trj/1KX5_cryst_tetrasome_coiled_for_web.xtc"
-  var csvfile="dat/1KX5_cryst_tetrasome_coiled_cont_wrap.csv"
+  var csvfile="dat/1KX5_cryst_tetrasome_coiled_dist_unwrap.csv"
   var trjstep = 0.001;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
@@ -534,10 +534,12 @@
       <p>Time: <span id="frame_counter"></span> μs</p>
 
     </div>
-    <h4>Number of wrapped DNA base pairs from each nucleosome end</h4>
+    <h4>Number of wrapped DNA base pairs from each nucleosome end (defined by distance analysis)</h4>
     <div id='tooltip' style='position:absolute;background-color:lightgray;padding:5px'></div>
     <div id="my_dataviz"></div>
 
+	  
+	  
 
   </body>
 </html>
