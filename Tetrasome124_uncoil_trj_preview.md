@@ -361,7 +361,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 100;
+              return d / 1000;
             }))
 
         // Add Y axis
@@ -471,7 +471,7 @@
             .attr('x2', x(frame))
             .attr('y1', 0)
             .attr('y2', height);
-          tooltip.html('Proximal wrap (smoothed): ' + Math.floor(data[frame*10].prox_filtered) + 'bp<br>Distal wrap (smoothed): ' + Math.floor(data[frame*10].dist_filtered) + 'bp')
+          tooltip.html('Proximal wrap: ' + Math.floor(data[frame*10].prox_filtered) + 'bp<br>Distal wrap: ' + Math.floor(data[frame*10].dist_filtered) + 'bp')
             .style('display', 'block')
             .style('left', d3.event.pageX + 20)
             .style('top', d3.event.pageY - 20)
