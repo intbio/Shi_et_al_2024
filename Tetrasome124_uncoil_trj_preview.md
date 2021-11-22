@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/1KX5_cryst_tetrasome_coiled_for_web.pdb"
   var xtc="trj/1KX5_cryst_tetrasome_coiled_for_web.xtc"
-  var csvfile="dat/1KX5_cryst_tetrasome_coiled_dist_unwrap.csv"
+  var csvfile="dat/1KX5_cryst_tetrasome_coiled_dist_wrap.csv"
   var trjstep = 0.001;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
