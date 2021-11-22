@@ -347,7 +347,7 @@
       // Now I can use this dataset:
       function(data) {
         data.forEach(function(d) {
-          d.Frame = d.Frame / 100;
+          d.Frame = d.Frame / 1;
         });
         // Add X axis --> it is a date format
 
@@ -361,7 +361,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 10;
+              return d / 1000;
             }))
 
         // Add Y axis
