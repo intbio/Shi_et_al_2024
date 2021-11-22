@@ -361,7 +361,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 1000;
+              return d / 100;
             }))
 
         // Add Y axis
