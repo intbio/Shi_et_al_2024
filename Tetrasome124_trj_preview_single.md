@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/remake_1KX5_cryst_tetrasome_124_tails_for_web.pdb"
   var xtc="trj/remake_1KX5_cryst_tetrasome_124_tails_for_web.xtc"
-  var csvfile="dat/remake_1KX5_cryst_tetrasome_124_tails_cont_wrap.csv"
+  var csvfile="dat/remake_1KX5_cryst_tetrasome_124_tails_dist_wrap.csv"
   var trjstep = 0.01;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
