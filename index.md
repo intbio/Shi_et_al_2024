@@ -3,9 +3,9 @@
 
 ### Interactive preview of MD trajectories
 - [TETR<sub>uncoil</sub> - simulation of DNA uncoiling upon H2A-H2B removal from the NCP structure](Tetrasome124_uncoil_trj_preview)
-- [TETR<sub>124, merged</sub>  &nbsp;&nbsp;&nbsp;  - merged simulation runs (2.5 µs in total) of tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview)
-- [TETR<sub>124, continuous</sub>  &nbsp;&nbsp;&nbsp;  - 2.5 µs simulation (continuous run) of tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview_single)
-- [TETR<sup><i>tt</i></sup><sub>120</sub> &nbsp; - 1 µs simulation (continuous run) of tetrasome positioned on 120 bp DNA sequence with truncated histone tails](Tetrasome120_trj_preview)
+- [TETR<sub>124,1</sub>  &nbsp;&nbsp;&nbsp;  - run 1, several merged simulations totaling 2.5 µs, tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview)
+- [TETR<sub>124,2</sub>  &nbsp;&nbsp;&nbsp;  - run 2, a continuous 2.5 µs simulation, tetrasome positioned on 124 bp DNA sequence](Tetrasome124_trj_preview_single)
+- [TETR<sup><i>tt</i></sup><sub>120</sub> &nbsp; - 1 µs simulation of tetrasome positioned on 120 bp DNA sequence with truncated histone tails](Tetrasome120_trj_preview)
 - [NCP<sub>147</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- full nucleosome core particle simulation for comparison from Armeev et al. Nat.Comm. 2021](../Armeev_et_al_2021/NCP147_trj_preview) 
 
 ### Collective motions of the histone tetramer globular domain 
