@@ -1,4 +1,4 @@
-### TETR<sub>124, continuous</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, full length histone tails, continuous run simulation  (PDB ID 1KX5)
+### TETR<sub>124, 2</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, full length histone tails, continuous run simulation  (PDB ID 1KX5)
 [Back](http://intbio.github.io/Tetrasome_MD_2024/)
 
 <html lang="en">
