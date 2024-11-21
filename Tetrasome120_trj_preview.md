@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/h3-h4_2_tm_120DNA_for_web.pdb"
   var xtc="trj/h3-h4_2_tm_120DNA_for_web.xtc"
-  var csvfile="dat/h3-h4_2_tm_120DNA_dist_wrap.csv"
+  var csvfile="dat/h3-h4_2_tm_120DNA_dist_unwrap.csv"
   var trjstep = 0.01;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
