@@ -1,5 +1,5 @@
 ### TETR<sub>124, 2</sub> - tetrasome with 124 bp pseudosymmetric α-satellite DNA, full length histone tails, continuous run simulation  (PDB ID 1KX5)
-[Back](http://intbio.github.io/Tetrasome_MD_2024/)
+[Back](http://intbio.github.io/Shi_et_al_2024/)
 
 <html lang="en">
   <head>
@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/remake_1KX5_cryst_tetrasome_124_tails_for_web.pdb"
   var xtc="trj/remake_1KX5_cryst_tetrasome_124_tails_for_web.xtc"
-  var csvfile="dat/remake_1KX5_cryst_tetrasome_124_tails_dist_wrap.csv"
+  var csvfile="dat/remake_1KX5_cryst_tetrasome_124_tails_cont_wrap.csv"
   var trjstep = 0.01;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
