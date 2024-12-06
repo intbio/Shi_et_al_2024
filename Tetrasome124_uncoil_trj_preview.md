@@ -1,5 +1,5 @@
 ### TETR<sub>uncoil</sub> -  Simulation of DNA uncoiling upon H2A-H2B removal from the NCP structure (124 bp pseudosymmetric α-satellite DNA, full length histone tails, PDB ID 1KX5) 
-[Back](http://intbio.github.io/Tetrasome_MD_2024/)
+[Back](http://intbio.github.io/Shi_et_al_2024/)
 
 <html lang="en">
   <head>
@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/1KX5_cryst_tetrasome_coiled_for_web.pdb"
   var xtc="trj/1KX5_cryst_tetrasome_coiled_for_web.xtc"
-  var csvfile="dat/1KX5_cryst_tetrasome_coiled_dist_wrap.csv"
+  var csvfile="dat/1KX5_cryst_tetrasome_coiled_cont_wrap.csv"
   var trjstep = 0.001;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
