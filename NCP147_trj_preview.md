@@ -1,5 +1,5 @@
 ### NCP<sub>147</sub> - 147 bp pseudosymmetricα-satellite DNA, full length histone tails in symmetric starting positions (PDB ID 1KX5)
-[Back](http://intbio.github.io/Tetrasome_MD_2024/)
+[Back](http://intbio.github.io/Shi_et_al_2024/)
 
 <html lang="en">
   <head>
