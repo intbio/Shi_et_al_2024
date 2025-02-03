@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/402719786.svg)](https://doi.org/10.5281/zenodo.14795720)
 
 This repository contains supplementary data for 
 "Histone Tetrasome Dynamics Affects Chromatin Transcription" by X. Shi, A.S. Fedulova et al..
