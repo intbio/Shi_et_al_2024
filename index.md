@@ -19,7 +19,3 @@
 
 ### Protocols
 - [Production run MDP-file for Gromacs](MD_production_protocol.mdp)
-
-### Analysis scripts and algorithms
-See [http://intbio.org/Armeev_et_al_2021/analysis_scripts_examples](http://intbio.org/Armeev_et_al_2021/analysis_scripts_examples)
-
